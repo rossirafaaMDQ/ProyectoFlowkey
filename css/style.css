@@ -211,6 +211,9 @@ p {
     align-items: center;
   }
 }
+
+/* Animacion Pagina de producto*/
+
 .imagenbox {
   height: 100%;
   width: 100%;
@@ -237,4 +240,8 @@ p {
   cursor: pointer;
   opacity: 0;
   transition: opacity 1s;
+}
+
+.detalle:hover {
+  opacity: 1;
 }
