@@ -18,10 +18,36 @@ body {
 }
 
 header {
-  background-color: rgb(0, 0, 0);
-  position: sticky;
-  top: 0px;
-  z-index: 2;
+  display: flex;
+  height: 100px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 50px;
 }
 
 h1,
@@ -30,27 +56,9 @@ p {
   text-align: center;
 }
 
-.img,
-svg {
-  vertical-align: middle;
-  max-width: 100%;
-  margin-top: 1%;
-}
-
 .container {
-  width: 80%;
-  margin: 0 auto;
   max-width: 1320px;
-}
-
-.nav__list {
-  list-style: none;
-}
-
-.nav__link {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
+  margin: 0 auto;
 }
 
 .display-2 {
