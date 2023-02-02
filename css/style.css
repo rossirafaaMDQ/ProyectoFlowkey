@@ -45,6 +45,23 @@ nav a:hover {
   align-items: center;
 }
 
+.logo {
+  animation: aparece-derecha 1.5s ease;
+}
+
+/*Animacion LOGO*/
+
+@keyframes aparece-derecha {
+  0% {
+    opacity: 0;
+    transform: translate(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
 .logo img {
   height: 70px;
   margin-right: 50px;
