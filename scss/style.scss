@@ -50,6 +50,7 @@ nav a:hover {
 }
 
 /*Animacion LOGO*/
+
 @keyframes aparece-derecha {
   0% {
     opacity: 0;
@@ -60,6 +61,7 @@ nav a:hover {
     transform: translate(0px);
   }
 }
+
 .logo img {
   height: 70px;
   margin-right: 50px;
@@ -86,6 +88,7 @@ p {
 .display-2-description {
   max-width: 600%;
   font-size: 1rem;
+
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -131,7 +134,6 @@ article img {
 h2 {
   color: white;
 }
-
 p {
   color: white;
   margin-bottom: 5%;
@@ -200,13 +202,16 @@ p {
 }
 
 /*media queries*/
+
 @media (min-width: 768px) {
   .container {
     width: 80%;
   }
+
   .nav-toggle {
     display: none;
   }
+
   .nav {
     visibility: visible;
     display: flex;
@@ -215,26 +220,30 @@ p {
     height: auto;
     position: relative;
   }
+
   .nav__list {
     display: flex;
     margin: 0;
   }
+
   .nav__item {
     margin: 0 0 0 1.5rem;
   }
+
   .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 }
+
 /* Animacion Pagina de producto*/
+
 .imagenbox {
   height: 100%;
   width: 100%;
   position: relative;
 }
-
 .imagenbox img {
   width: 300px;
   height: 300px;
@@ -245,7 +254,9 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  background: linear-gradient(rgba(107, 107, 107, 0.7) rgba(241, 241, 241, 0.7));
+  background: linear-gradient(
+    rgba(107, 107, 107, 0.7) rgba(241, 241, 241, 0.7)
+  );
   color: white;
   display: flex;
   flex-direction: column;
@@ -259,5 +270,3 @@ p {
 .detalle:hover {
   opacity: 1;
 }
-
-/*# sourceMappingURL=style.css.map */

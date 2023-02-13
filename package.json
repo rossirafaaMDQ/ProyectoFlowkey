@@ -1,0 +1,20 @@
+{
+  "name": "clase2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossirafaaMDQ/ProyectoFlowkey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rossirafaaMDQ/ProyectoFlowkey/issues"
+  },
+  "homepage": "https://github.com/rossirafaaMDQ/ProyectoFlowkey#readme"
+}
