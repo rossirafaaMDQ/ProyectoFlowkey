@@ -10,14 +10,14 @@ body {
 }
 
 #intro-section {
-  background-color: rgb(0, 0, 0);
+  background-color: $colorprincipal;
   padding: 8rem 0 0 0;
 }
 
 header {
   display: flex;
   height: 100px;
-  background-color: black;
+  background-color: $colorprincipal;
   justify-content: space-between;
   align-items: center;
   padding: 100px;
@@ -96,7 +96,7 @@ p {
 }
 .flex-item {
   margin: 10px;
-  border: 3px solid black;
+  border: 3px solid $colorprincipal;
   background-color: gray;
 }
 
@@ -152,7 +152,7 @@ p {
     display: flex;
     flex: 0 1 300px;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px solid $colorprincipal;
     border-radius: 1rem;
     padding: 2rem;
   }
@@ -163,7 +163,7 @@ p {
   }
 
   article button {
-    background: black;
+    background: $colorprincipal;
     color: white;
     padding: 0.5rem;
     border: none;
@@ -252,3 +252,5 @@ p {
 .detalle:hover {
   opacity: 1;
 }
+
+$colorprincipal: rgb(0, 0, 0);
