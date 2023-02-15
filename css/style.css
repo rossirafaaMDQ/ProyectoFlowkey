@@ -6,15 +6,12 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: rgb(77, 77, 77);
 }
 
 #intro-section {
   background-color: rgb(0, 0, 0);
   padding: 8rem 0 0 0;
-}
-
-body {
-  background-color: rgb(77, 77, 77);
 }
 
 header {
@@ -25,8 +22,7 @@ header {
   align-items: center;
   padding: 100px;
 }
-
-a {
+header a {
   text-decoration: none;
   color: white;
 }
@@ -35,18 +31,18 @@ nav a {
   font-weight: 600;
   padding-right: 10px;
 }
-
-nav a:hover {
+nav a nav a:hover {
   color: gray;
 }
 
 .logo {
   display: flex;
   align-items: center;
-}
-
-.logo {
   animation: aparece-derecha 1.5s ease;
+}
+.logo img {
+  height: 70px;
+  margin-right: 50px;
 }
 
 /*Animacion LOGO*/
@@ -60,11 +56,6 @@ nav a:hover {
     transform: translate(0px);
   }
 }
-.logo img {
-  height: 70px;
-  margin-right: 50px;
-}
-
 h1,
 h2,
 p {
@@ -137,18 +128,17 @@ p {
   margin-bottom: 5%;
 }
 
+/* Pagina Productos Tarjetas*/
 .tarjeta1,
 .tarjeta2,
 .tarjeta3 {
   box-sizing: border-box;
 }
-
 .tarjeta1 body,
 .tarjeta2 body,
 .tarjeta3 body {
   padding: 1rem;
 }
-
 .tarjeta1 section,
 .tarjeta2 section,
 .tarjeta3 section {
@@ -157,7 +147,6 @@ p {
   gap: 1rem;
   flex-wrap: wrap;
 }
-
 .tarjeta1 article,
 .tarjeta2 article,
 .tarjeta3 article {
@@ -168,14 +157,12 @@ p {
   border-radius: 1rem;
   padding: 2rem;
 }
-
 .tarjeta1 article img,
 .tarjeta2 article img,
 .tarjeta3 article img {
   order: -1;
   align-self: center;
 }
-
 .tarjeta1 article button,
 .tarjeta2 article button,
 .tarjeta3 article button {
@@ -194,7 +181,6 @@ p {
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 0.7rem;
 }
-
 .fotos section img {
   width: 100%;
 }
@@ -234,7 +220,6 @@ p {
   width: 100%;
   position: relative;
 }
-
 .imagenbox img {
   width: 300px;
   height: 300px;

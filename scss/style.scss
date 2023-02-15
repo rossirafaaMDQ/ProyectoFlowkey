@@ -6,15 +6,12 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: rgb(77, 77, 77);
 }
 
 #intro-section {
   background-color: rgb(0, 0, 0);
   padding: 8rem 0 0 0;
-}
-
-body {
-  background-color: rgb(77, 77, 77);
 }
 
 header {
@@ -24,29 +21,30 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 100px;
-}
 
-a {
-  text-decoration: none;
-  color: white;
+  a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 nav a {
   font-weight: 600;
   padding-right: 10px;
-}
-
-nav a:hover {
-  color: gray;
+  nav a:hover {
+    color: gray;
+  }
 }
 
 .logo {
   display: flex;
   align-items: center;
-}
-
-.logo {
   animation: aparece-derecha 1.5s ease;
+
+  img {
+    height: 70px;
+    margin-right: 50px;
+  }
 }
 
 /*Animacion LOGO*/
@@ -60,11 +58,6 @@ nav a:hover {
     opacity: 1;
     transform: translate(0px);
   }
-}
-
-.logo img {
-  height: 70px;
-  margin-right: 50px;
 }
 
 h1,
@@ -101,7 +94,6 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 .flex-item {
   margin: 10px;
   border: 3px solid black;
@@ -112,7 +104,6 @@ p {
   min-height: 300px;
   order: 3;
 }
-
 .flex-item-2 {
   min-height: 300px;
   order: 1;
@@ -139,55 +130,47 @@ p {
   margin-bottom: 5%;
 }
 
+/* Pagina Productos Tarjetas*/
+
 .tarjeta1,
 .tarjeta2,
 .tarjeta3 {
   box-sizing: border-box;
-}
 
-.tarjeta1 body,
-.tarjeta2 body,
-.tarjeta3 body {
-  padding: 1rem;
-}
+  body {
+    padding: 1rem;
+  }
 
-.tarjeta1 section,
-.tarjeta2 section,
-.tarjeta3 section {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
+  section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 
-.tarjeta1 article,
-.tarjeta2 article,
-.tarjeta3 article {
-  display: flex;
-  flex: 0 1 300px;
-  flex-direction: column;
-  border: 1px solid black;
-  border-radius: 1rem;
-  padding: 2rem;
-}
+  article {
+    display: flex;
+    flex: 0 1 300px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+  }
 
-.tarjeta1 article img,
-.tarjeta2 article img,
-.tarjeta3 article img {
-  order: -1;
-  align-self: center;
-}
+  article img {
+    order: -1;
+    align-self: center;
+  }
 
-.tarjeta1 article button,
-.tarjeta2 article button,
-.tarjeta3 article button {
-  background: black;
-  color: white;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 1rem;
-  font-size: 1.2rem;
-  cursor: pointer;
+  article button {
+    background: black;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
 }
 
 .fotos section {
@@ -195,10 +178,9 @@ p {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 0.7rem;
-}
-
-.fotos section img {
-  width: 100%;
+  img {
+    width: 100%;
+  }
 }
 
 /*media queries*/
@@ -243,10 +225,11 @@ p {
   height: 100%;
   width: 100%;
   position: relative;
-}
-.imagenbox img {
-  width: 300px;
-  height: 300px;
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .detalle {
@@ -266,7 +249,6 @@ p {
   opacity: 0;
   transition: opacity 1s;
 }
-
 .detalle:hover {
   opacity: 1;
 }
