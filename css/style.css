@@ -77,7 +77,7 @@ p {
 .display-2-description {
   max-width: 200px;
   font-size: 1.3rem;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 5%;
   text-align: center;
 }
@@ -248,3 +248,80 @@ p {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*TARJETAS DE PRODUCTOS*/
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.product-card img {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+.product-card h3 {
+  font-size: 1.5em;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card p {
+  font-size: 1.2em;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card button {
+  background-color: #2e312e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/* footer */
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info {
+  display: inline-block;
+  text-align: left;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  font-size: 20px;
+}
