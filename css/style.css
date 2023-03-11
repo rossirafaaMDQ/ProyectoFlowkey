@@ -262,6 +262,8 @@ p {
   overflow: hidden;
   width: 500px;
   height: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card img {
@@ -270,6 +272,8 @@ p {
   display: flex;
   height: 300px;
   width: 300px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .product-card h3 {
@@ -278,6 +282,8 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card p {
@@ -285,6 +291,8 @@ p {
   margin: 10px;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card button {
@@ -292,9 +300,11 @@ p {
   border: none;
   border-radius: 5px;
   color: white;
-  display: block;
+  display: flex;
   margin: 10px auto;
   padding: 10px;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* footer */
